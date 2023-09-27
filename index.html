@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <h1>Encriptador</h1>
+    </header>
+    <main>
+        <div class="fila">
+            <!-- Columna encriptar -->
+            <div class="columna-encriptar">
+                <textarea name="encriptar" id="text-encriptar" cols="30" rows="10"></textarea>
+            </div>
+            
+            <!-- Columna desencriptar -->
+            <div class="columna-desencriptar">
+                <textarea name="desencriptar" id="text-desencriptar" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div class="fila contenedor-botones">
+            <div>
+                <button onclick="encriptar()">Encriptar</button>
+            </div>
+            <div>
+                <button onclick="desencriptar()">Desencriptar</button>
+            </div>
+            <div>
+                <button onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>

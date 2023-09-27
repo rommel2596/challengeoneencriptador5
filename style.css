@@ -1,0 +1,46 @@
+body {
+    background-color: #D8DFE8;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.75rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem auto;
+}
+
+textarea {
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+}
+
+.fila {
+    display: flex;
+    gap: 2rem;
+}
+
+button {
+    border-radius: 999999px;
+    padding: 0.5rem 0.75rem;
+    border-color: transparent;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 150ms;
+}
+
+button:hover {
+    background-color: #faf8f8;
+}
+
+button:focus {
+    border-color: rgb(51 65 85);
+}
